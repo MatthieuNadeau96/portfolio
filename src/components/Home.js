@@ -6,9 +6,9 @@ export class Home extends React.Component {
 
         return (
             <div className="home">
-                <h3>My name is</h3>
+                <h3>blah blah blah</h3>
                 <h1>Matthieu Nadeau</h1>
-                <p>Self taught developer. Blah Blah Blah.</p>
+                <p>Self taught learner, thinker and creator. Blah blah blah.</p>
             </div>
         );
     }
