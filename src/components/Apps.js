@@ -2,8 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Paper } from '@material-ui/core';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import Modal from './Modal';
 
 const useStyles = makeStyles((theme) => ({
+
     div: {
         // padding: '4em',
     },
@@ -22,54 +24,61 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
         height: '100%',
         outline: 'none !important',
-        backgroundColor: '#dddddd',
+        borderRadius: '3%',
+        // backgroundColor: '#eeeeee',
 
     },
     img: {
         margin: 'auto',
         display: 'block',
-        height: '50%',
-        width: '50%',
+        // height: '50%',
+        // width: '50%',
         maxWidth: '100%',
         maxHeight: '100%',
+        borderRadius: '3%',
     },
 }));
 
 function Apps() {
     const classes = useStyles();
+    const [modalShow, setModalShow] = React.useState(false);
 
     return (
         <div className={classes.div}>
+            <Modal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
             <Grid container spacing={5} className={classes.grid} >
                 <Grid item xs={12} sm={12} md={6} lg={4}>
-                    <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/pomodoro.png" />
+                    <ButtonBase className={classes.image} onClick={() => setModalShow(true)}>
+                        <img className={classes.img} alt="complex" src="/images/pomodoro-mockup-bl.png" />
                     </ButtonBase>
                 </Grid>
 
                 <Grid item xs={12} sm={12} md={6} lg={4}>
-                    <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/chat-ui.png" />
+                    <ButtonBase className={classes.image} onClick={() => setModalShow(true)}>
+                        <img className={classes.img} alt="complex" src="/images/chat-ui-mockup-bl.png" />
                     </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={4}>
-                    <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/personal-expenses.png" />
+                    <ButtonBase className={classes.image} onClick={() => setModalShow(true)}>
+                        <img className={classes.img} alt="complex" src="/images/personal-expenses-mockup-bl.png" />
                     </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={4}>
-                    <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/snake.png" />
+                    <ButtonBase className={classes.image} onClick={() => setModalShow(true)}>
+                        <img className={classes.img} alt="complex" src="/images/snake-mockup-bl.png" />
                     </ButtonBase>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={4}>
+                <Grid item xs={12} sm={12} md={6} lg={4} onClick={() => setModalShow(true)}>
                     <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/meals.png" />
+                        <img className={classes.img} alt="complex" src="/images/meals-mockup-bl.png" />
                     </ButtonBase>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={4}>
+                <Grid item xs={12} sm={12} md={6} lg={4} onClick={() => setModalShow(true)}>
                     <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/xylophone.png" />
+                        <img className={classes.img} alt="complex" src="/images/xylophone-mockup-bl.png" />
                     </ButtonBase>
                 </Grid>
             </Grid>
