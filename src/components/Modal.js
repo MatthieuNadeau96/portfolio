@@ -15,7 +15,7 @@ const modal = props => (
         <Modal.Header closeButton />
         <Row>
             <Col >
-                <Image src="/images/pomodoro-mockup-bl.png" fluid />
+                <Image src={props.image} fluid />
             </Col>
             <Col >
                 <Modal.Body>
