@@ -69,7 +69,7 @@ function Apps() {
                     <ButtonBase className={classes.image} onClick={() => {
                         resetTitle('Pomodoro Timer');
                         resetDescription('Pomodoro productivity timer.');
-                        resetImage({ pomodoroImage }); // ***********************
+                        resetImage(pomodoroImage); // ***********************
                         setModalShow(true);
                     }}>
                         <img className={classes.img} alt="complex" src={pomodoroImage} />
