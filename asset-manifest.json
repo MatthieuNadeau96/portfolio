@@ -1,27 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bea9e97a.chunk.css",
-    "main.js": "/portfolio/static/js/main.0e0c9975.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0e0c9975.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8707e417.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8707e417.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.7e7b8902.chunk.js": "/portfolio/static/js/2.7e7b8902.chunk.js",
-    "static/js/2.7e7b8902.chunk.js.map": "/portfolio/static/js/2.7e7b8902.chunk.js.map",
+    "static/js/2.1ab37b95.chunk.js": "/portfolio/static/js/2.1ab37b95.chunk.js",
+    "static/js/2.1ab37b95.chunk.js.map": "/portfolio/static/js/2.1ab37b95.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.02b9ab718ebee456a9ea2402b03932bb.js": "/portfolio/precache-manifest.02b9ab718ebee456a9ea2402b03932bb.js",
+    "precache-manifest.53f3e139cd599d85183e703318c26683.js": "/portfolio/precache-manifest.53f3e139cd599d85183e703318c26683.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.bea9e97a.chunk.css.map": "/portfolio/static/css/main.bea9e97a.chunk.css.map",
-    "static/js/2.7e7b8902.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7e7b8902.chunk.js.LICENSE.txt",
+    "static/js/2.1ab37b95.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1ab37b95.chunk.js.LICENSE.txt",
     "static/media/chat-ui-mockup-bl.png": "/portfolio/static/media/chat-ui-mockup-bl.52026137.png",
-    "static/media/pomodoro-mockup-bl.png": "/portfolio/static/media/pomodoro-mockup-bl.f8d608fc.png"
+    "static/media/meals-mockup-bl.png": "/portfolio/static/media/meals-mockup-bl.7c730ebd.png",
+    "static/media/personal-expenses-mockup-bl.png": "/portfolio/static/media/personal-expenses-mockup-bl.e0e65a80.png",
+    "static/media/pomodoro-mockup-bl.png": "/portfolio/static/media/pomodoro-mockup-bl.f8d608fc.png",
+    "static/media/snake-mockup-bl.png": "/portfolio/static/media/snake-mockup-bl.20e9cd16.png",
+    "static/media/xylophone-mockup-bl.png": "/portfolio/static/media/xylophone-mockup-bl.d2bf7bdc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.7e7b8902.chunk.js",
+    "static/js/2.1ab37b95.chunk.js",
     "static/css/main.bea9e97a.chunk.css",
-    "static/js/main.0e0c9975.chunk.js"
+    "static/js/main.8707e417.chunk.js"
   ]
 }
