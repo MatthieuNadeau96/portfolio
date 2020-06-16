@@ -12,9 +12,6 @@ import xylophoneImage from '../imgs/xylophone-mockup-bl.png';
 
 const useStyles = makeStyles((theme) => ({
 
-    div: {
-        // padding: '4em',
-    },
     grid: {
         width: '100%',
         alignItems: 'center',
@@ -56,7 +53,7 @@ function Apps() {
     const [image, resetImage] = React.useState('');
 
     return (
-        <div className={classes.div}>
+        <div className='apps-container'>
             <Modal
                 show={modalShow}
                 onHide={() => setModalShow(false)}

@@ -84,6 +84,12 @@
   
 }
 
+.apps-container {
+  width: 60rem;
+  margin: auto;
+}
+
+
 @media (max-width: 1062px) {
   .home {
     padding-left: 3em;
@@ -105,6 +111,10 @@
   }
   .about p {
     font-size: 1.3125rem;
+  }
+  .apps-container {
+    width: 100%;
+    margin: 0;
   }
 }
 
