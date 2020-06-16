@@ -157,3 +157,25 @@
   }
 
 }
+
+
+
+
+
+
+
+
+.goof {
+  display: none;
+}
+
+@media screen and (max-width: 184px) {
+  .App .everything {
+    display: none;
+  }
+  .App .goof {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+  }
+}

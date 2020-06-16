@@ -13,19 +13,18 @@ function App() {
   return (
     <HashRouter basename='/'>
       <div className="App">
-        <Header />
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/apps' component={Apps} />
+        <div className='everything'>
 
+          <Header />
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/apps' component={Apps} />
+        </div>
+        <div className='goof'>
+          <span>Hey that's too small.</span>
+        </div>
       </div >
     </HashRouter>
-    // <Router history={browserHistory}>
-    //   <Route path={'apps'} component={'Apps'} />
-    //   <Route path={'about'} component={'About'} />
-    //   <Route path={'resume'} component={'Resume'} />
-    // </Router>
-
   );
 }
 
